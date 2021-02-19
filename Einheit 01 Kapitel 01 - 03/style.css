@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 4em;
+    color: rgb(126, 124, 119);
+}
+header h1 {
+    color: rgb(199, 255, 249);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    background-image: url(/bilder/pralinen1.jpg);
+    padding: 40px;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(74, 187, 177);
+    margin-left: 30px;
+}
+nav a:first-child {
+    margin-left: 0px;
+}
+article h2 {
+    font-size: 20px;
+    color: rgb(199, 255, 249);
+    text-align: center;
+    padding-top: 40px;
+}
+main {
+    display: flex;
+    max-width: 100%;
+}
+p {
+    padding-right: 70px;
+}
+img {
+    max-width: 100%;
+}
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    display: block;
+}
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(74, 187, 177);
+    text-align: right;
+}
