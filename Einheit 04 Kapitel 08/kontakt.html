@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/gepard1.jpg" width=100%>
+        <h1>Einen Tag im Zoo</h1>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="info.html">Informationen</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form method="GET" action="kontakt.html">
+                <fieldset>
+                    <legend>Kontaktformular</legend>
+
+                    <section>
+                        <label for="vorname">Vorname</label>
+                        <input type="text" name="vorname" id="vorname">
+                        <label for="nachname">Nachname</label>
+                        <input type="text" name="nachname" id="nachname">
+                    </section>
+
+                    <label for="emailadresse">E-Mail</label>
+                    <input type="email" name="emailadresse" id="emailadresse" placeholder="max.mustermann@gmx.at">
+
+                    <section>
+                        <label for="date">Besuchstag</label>
+                        <input type="date" name="date" id="besuchstag">
+                        <label for="time">Besuchszeit</label>
+                        <input type="time" name="time" id="Besuchszeit">
+                    </section>
+
+                    <label for="bewertung">Wie sehr hat es Ihnen gefallen?</label>
+                    <input type="range" name="bewertung" id="bewertung">
+
+                    <hr>
+                    <label for="weiterempfehlung">Würden Sie unseren Zoo empfehlen?</label>
+                    <input type="radio" name="weiterempfehlung" id="Ja">Ja
+                    <input type="radio" name="weiterempfehlung" id="Nein">Nein
+
+                    <section>
+                        <label for="tierart">Welche Tierart hat Ihnen am besten gefallen?</label>
+                        <select name="tierart" id="lieblingstier">
+                    <option value="1">Affe</option>
+                    <option value="2">Alpaka</option>
+                    <option value="3">Bär</option>
+                    <option value="4">Delfin</option>
+                    <option value="5">Elefant</option>
+                    <option value="6">Gepard</option>
+                    <option value="7">Giraffe</option>
+                    <option value="8">Känguru</option>
+                    <option value="9">Löwe</option>
+                </select>
+                    </section>
+
+                    <label for="kommentar">Anliegen und Wünsche</label>
+                    <textarea rows="5" cols="20" name="kommentar" id="kommentar">
+                </textarea>
+                    <br>
+
+                    <label for="besucherinfo">Besucherinformation</label>
+                    <input type="text" list="auswahl" name="besucherinfo" id="besucherinfo">
+                    <datalist id="auswahl">
+                    <option value="Familienausflug"></option>
+                    <option value="Alleine unterwegs"></option>
+                    <option value="Gruppenausflug"></option>
+                    <option value="Ausflug mit Freunden"></option>
+                    <option value="Was anderes"></option>
+                </datalist>
+                    <br>
+
+                    <input type="submit" value="Senden">
+                    <input type="reset" value="Zurücksetzen">
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p class="foot">
+            @Zoo
+        </p>
+    </footer>
+</body>
+
+</html>
