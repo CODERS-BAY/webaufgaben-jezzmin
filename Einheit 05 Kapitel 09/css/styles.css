@@ -1,0 +1,156 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40pt;
+}
+
+h1::first-letter {
+    color: rgb(151, 104, 43);
+}
+
+#start {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20pt;
+    color: rgb(151, 104, 43);
+    transition: 1s;
+}
+
+a:hover {
+    color: saddlebrown;
+    background-color: rgb(245, 199, 138);
+    transition: 1s;
+}
+
+nav {
+    word-spacing: 30pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+
+#video {
+    margin-top: 25pt;
+    margin-bottom: 25pt;
+    padding-right: 350pt;
+    padding-left: 350pt;
+    background-color: rgb(151, 104, 43);
+}
+
+.datalist {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+dt {
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(151, 104, 43);
+    font-variant: small-caps;
+    margin-bottom: 10pt;
+    margin-left: 40px;
+}
+
+dd {
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot {
+    text-align: right;
+    margin-right: 50pt;
+    margin-top: 50pt;
+}
+
+form {
+    margin-top: 20pt;
+}
+
+fieldset {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15pt;
+    word-spacing: 5pt;
+    line-height: 3;
+    border-radius: 20pt;
+    margin-right: 250pt;
+    margin-left: 250pt;
+}
+
+fieldset:hover {
+    background-image: url(/img/zoo-tiger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    color: white;
+}
+
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: rgb(151, 104, 43);
+    font-size: 20pt;
+}
+
+legend:hover {
+    color: rgb(122, 107, 107);
+}
+
+label {
+    font-variant: small-caps;
+    margin-right: 2%;
+    padding-left: 10pt;
+}
+
+#range {
+    width: 50%;
+    color: rgb(151, 104, 43);
+}
+
+hr {
+    color: rgb(151, 104, 43);
+}
+
+select {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 100%;
+    margin-top: 20pt;
+}
+
+th {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color: rgb(151, 104, 43);
+    font-variant: small-caps;
+    text-align: center;
+}
+
+tr {
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+td {
+    padding-top: 10pt;
+}
+
+.link {
+    text-decoration: underline;
+    color: rgb(151, 104, 43);
+    font-size: 15pt;
+}
+
+.buttons {
+    margin-left: 200pt;
+}
