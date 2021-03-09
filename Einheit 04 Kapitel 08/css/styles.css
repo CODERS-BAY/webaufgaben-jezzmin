@@ -8,7 +8,7 @@ h1::first-letter {
     color: rgb(151, 104, 43);
 }
 
-p {
+#start {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -17,6 +17,13 @@ a {
     text-decoration: none;
     font-size: 20pt;
     color: rgb(151, 104, 43);
+    transition: 1s;
+}
+
+a:hover {
+    color: saddlebrown;
+    background-color: rgb(245, 199, 138);
+    transition: 1s;
 }
 
 nav {
@@ -26,9 +33,11 @@ nav {
     font-variant: small-caps;
 }
 
-iframe {
+#video {
     margin-top: 25pt;
-    padding-right: 450pt;
+    margin-bottom: 25pt;
+    padding-right: 350pt;
+    padding-left: 350pt;
     background-color: rgb(151, 104, 43);
 }
 
@@ -66,18 +75,42 @@ fieldset {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 15pt;
-    text-align: center;
     word-spacing: 5pt;
     line-height: 3;
     border-radius: 20pt;
+    margin-right: 250pt;
+    margin-left: 250pt;
+}
+
+fieldset:hover {
+    background-image: url(/img/zoo-tiger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    color: white;
 }
 
 legend {
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
     color: rgb(151, 104, 43);
-    text-align: center;
     font-size: 20pt;
+}
+
+legend:hover {
+    color: rgb(122, 107, 107);
+}
+
+label {
+    font-variant: small-caps;
+    margin-right: 2%;
+    padding-left: 10pt;
+}
+
+#range {
+    width: 50%;
+    color: rgb(151, 104, 43);
 }
 
 hr {
@@ -110,4 +143,14 @@ tr {
 
 td {
     padding-top: 10pt;
+}
+
+.link {
+    text-decoration: underline;
+    color: rgb(151, 104, 43);
+    font-size: 15pt;
+}
+
+.buttons {
+    margin-left: 200pt;
 }
