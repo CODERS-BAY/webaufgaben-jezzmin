@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Kontakt</title>
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b5265de4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -23,34 +24,34 @@
                 <fieldset>
                     <legend>Kontaktformular</legend>
 
-                    <section>
-                        <label for="vorname">Vorname</label>
-                        <input type="text" name="vorname" id="vorname">
-                        <label for="nachname">Nachname</label>
-                        <input type="text" name="nachname" id="nachname">
-                    </section>
+                    <label for="vorname">Vorname</label>
+                    <input type="text" name="vorname" id="vorname">
+                    <br>
+                    <label for="nachname">Nachname</label>
+                    <input type="text" name="nachname" id="nachname">
+                    <br>
 
                     <label for="emailadresse">E-Mail</label>
                     <input type="email" name="emailadresse" id="emailadresse" placeholder="max.mustermann@gmx.at">
+                    <br>
 
-                    <section>
-                        <label for="date">Besuchstag</label>
-                        <input type="date" name="date" id="besuchstag">
-                        <label for="time">Besuchszeit</label>
-                        <input type="time" name="time" id="Besuchszeit">
-                    </section>
+                    <label for="date">Besuchstag</label>
+                    <input type="date" name="date" id="besuchstag">
+                    <br>
+                    <label for="time">Besuchszeit</label>
+                    <input type="time" name="time" id="Besuchszeit">
+                    <br>
 
                     <label for="bewertung">Wie sehr hat es Ihnen gefallen?</label>
-                    <input type="range" name="bewertung" id="bewertung">
+                    <input id="range" type="range" name="bewertung" id="bewertung">
 
                     <hr>
                     <label for="weiterempfehlung">Würden Sie unseren Zoo empfehlen?</label>
                     <input type="radio" name="weiterempfehlung" id="Ja">Ja
                     <input type="radio" name="weiterempfehlung" id="Nein">Nein
-
-                    <section>
-                        <label for="tierart">Welche Tierart hat Ihnen am besten gefallen?</label>
-                        <select name="tierart" id="lieblingstier">
+                    <br>
+                    <label for="tierart">Welche Tierart hat Ihnen am besten gefallen?</label>
+                    <select name="tierart" id="lieblingstier">
                     <option value="1">Affe</option>
                     <option value="2">Alpaka</option>
                     <option value="3">Bär</option>
@@ -61,10 +62,11 @@
                     <option value="8">Känguru</option>
                     <option value="9">Löwe</option>
                 </select>
-                    </section>
+                    <br>
 
                     <label for="kommentar">Anliegen und Wünsche</label>
-                    <textarea rows="5" cols="20" name="kommentar" id="kommentar">
+                    <br>
+                    <textarea rows="5" cols=100% name="kommentar" id="kommentar">
                 </textarea>
                     <br>
 
@@ -79,8 +81,8 @@
                 </datalist>
                     <br>
 
-                    <input type="submit" value="Senden">
-                    <input type="reset" value="Zurücksetzen">
+                    <input class="buttons" type="submit" value="Senden">
+                    <input class="buttons" type="reset" value="Zurücksetzen">
                 </fieldset>
             </form>
         </article>
