@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b5265de4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/gepard1.jpg" width=100%>
+        <h1>Einen Tag im Zoo</h1>
+        <nav>
+            <ul class="d-flex">
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="info.html">Informationen</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form method="GET" action="kontakt.html">
+                <fieldset>
+                    <legend>Kontaktformular</legend>
+
+                    <div class="formStyling">
+                        <label for="vorname">Vorname</label>
+                        <input type="text" name="vorname" id="vorname">
+                    </div>
+                    <div>
+                        <label for="nachname">Nachname</label>
+                        <input type="text" name="nachname" id="nachname">
+                    </div>
+                    <div>
+                        <label for="emailadresse">E-Mail</label>
+                        <input type="email" name="emailadresse" id="emailadresse" placeholder="max.mustermann@gmx.at">
+                    </div>
+                    <div>
+                        <label for="date">Besuchstag</label>
+                        <input type="date" name="date" id="besuchstag">
+                    </div>
+                    <div>
+                        <label for="time">Besuchszeit</label>
+                        <input type="time" name="time" id="Besuchszeit">
+                    </div>
+                    <div>
+                        <label for="bewertung">Wie sehr hat es Ihnen gefallen?</label>
+                        <input id="range" type="range" name="bewertung" id="bewertung">
+                    </div>
+                    <div>
+                        <label for="weiterempfehlung">Würden Sie unseren Zoo empfehlen?</label>
+                        <input type="radio" name="weiterempfehlung" id="Ja">Ja
+                        <input type="radio" name="weiterempfehlung" id="Nein">Nein
+                    </div>
+                    <div>
+                        <label for="tierart">Welche Tierart hat Ihnen am besten gefallen?</label>
+                        <select name="tierart" id="lieblingstier">
+                    <option value="1">Affe</option>
+                    <option value="2">Alpaka</option>
+                    <option value="3">Bär</option>
+                    <option value="4">Delfin</option>
+                    <option value="5">Elefant</option>
+                    <option value="6">Gepard</option>
+                    <option value="7">Giraffe</option>
+                    <option value="8">Känguru</option>
+                    <option value="9">Löwe</option>
+                    </div>
+                   
+
+                    <label for="kommentar">Anliegen und Wünsche</label>
+                    <br>
+                    <textarea rows="5" cols=100% name="kommentar" id="kommentar">
+                </textarea>
+                    <br>
+                    <div>
+                    <label for="besucherinfo">Besucherinformation</label>
+                    <input type="text" list="auswahl" name="besucherinfo" id="besucherinfo">
+                    <datalist id="auswahl">
+                    <option value="Familienausflug"></option>
+                    <option value="Alleine unterwegs"></option>
+                    <option value="Gruppenausflug"></option>
+                    <option value="Ausflug mit Freunden"></option>
+                    <option value="Was anderes"></option>
+                    </datalist>
+                    </div>
+
+                    <input class="buttons" type="submit" value="Senden">
+                    <input class="buttons" type="reset" value="Zurücksetzen">
+                </fieldset>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p class="foot">
+            @Zoo
+        </p>
+    </footer>
+</body>
+
+</html>
